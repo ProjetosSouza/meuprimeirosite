@@ -12,3 +12,11 @@ margin: auto;
     h1{
 text-align: center;
     }
+
+    img{
+width: 80%;
+    }
+
+    figure{
+text-align: center;
+    }
