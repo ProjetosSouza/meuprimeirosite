@@ -8,15 +8,23 @@ width: 80%;
 margin: auto;
     }
 
-
     h1{
 text-align: center;
     }
 
     img{
-width: 80%;
+width: 50%;
     }
 
     figure{
 text-align: center;
+    }
+
+    .img_topo{
+    width: 100%;
+    }
+
+    p{
+    font-size:1.5em;
+        
     }
