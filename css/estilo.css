@@ -1,30 +1,30 @@
-    body{
-        background-color: #BA55D3				;
-    }
+body{
+background-color: #BA55D3;
+}
 
-    .container{
+.container{
 
 width: 80%;
 margin: auto;
-    }
+}
 
-    h1{
+h1{
 text-align: center;
-    }
+}
 
-    img{
+img{
 width: 50%;
-    }
+}
 
-    figure{
+figure{
 text-align: center;
-    }
+}
 
-    .img_topo{
-    width: 100%;
-    }
+.img_topo{
+width: 100%;
+}
 
-    p{
-    font-size:1.5em;
+p{
+font-size:1.5em;
         
-    }
+}
