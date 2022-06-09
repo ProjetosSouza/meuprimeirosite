@@ -1,7 +1,14 @@
-body{
-background-color: #BA55D3;
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/dd55ja2-8ba5495d-00bf-4eff-91bf-8e55671aacb6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGQ1NWphMi04YmE1NDk1ZC0wMGJmLTRlZmYtOTFiZi04ZTU1NjcxYWFjYjYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pr7o7qeeKM6hPBlKfErM8-gL7z7N0EnHy0vXbjNhvVg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+   
 }
-
+html {
+    scroll-behavior: smooth;
+}
 .container{
 
 width: 80%;
@@ -9,8 +16,33 @@ margin: auto;
 }
 
 h1{
-text-align: center;
+    text-align: center;
+    font-size: 1.5em;
 }
+h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+h4{
+    text-align: center;
+    font-size: 1.5em;
+}
+h5{
+    text-align: center;
+    font-size: 1.5em;
+}
+p{
+    text-align: center;
+    font-size: 1.3em;
+}
+figure{
+   text-align: center; 
+}
+
 
 img{
 width: 50%;
@@ -21,11 +53,12 @@ text-align: center;
 }
 
 .img_topo{
-width: 100%;
+width: 50%;
 }
 
 p{
 font-size:1.5em;
+color: white;
         
 }
 
