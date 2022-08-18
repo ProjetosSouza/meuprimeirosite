@@ -6,134 +6,83 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="css/reset.css">
  <link rel="stylesheet" href="css/estilo.css">
+ <link rel="icon" type="image/x-icon" href="img/favicon.ico">
  <title>Contato</title>
  <!DOCTYPE html>
 <html>
 <head>
-<style>
-* {
-  box-sizing: border-box;
-}
+  <body>
+    <h1>Contato</h1>
+     <p><a href="index.html">Voltar</a></p>
+</body>
+<body class="fundo">
+  <header>
+      <nav class="menu">
+          <div class="logo">
+          </div>
+          <div class="itens_menu">
+          <ul>
 
-input[type=text], select, textarea {
-  width: 50%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label { 
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 10px 200px;
-  border: none;
-  
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-  
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-.coisinhaa{
-    padding-right: 50%;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-</style>
-</head>
-<body>
-
-<h2>Responsive Form</h2>
-
-
-<div class="container">
-    <div class="coisinhaa">
-  <form action="/action_page.php">
-  <div class="row">
-    <div class="col-25">
-      <label for="fname">Primeiro Nome</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="fname" name="firstname" placeholder="Seu nome..">
-    </div>
+          </ul>
+          </div>
+      </nav>
+  </header>
+  <div class="containerform">
+      <section>
+          <div class="form">
+              <form action="#">
+                  <div class="row">
+                      <div class="col-25">
+                          <label>Digite seu nome: </label>
+                      </div>
+                      <div class="col-75">
+                          <input type="text" placeholder="Coloque seu nome completo">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-25">
+                          <label>Telefone: </label>
+                      </div>
+                      <div class="col-75">
+                          <input type="tel" placeholder="(99)99999-9999">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-25">
+                          <label> E-mail</label>
+                      </div>
+                      <div class="col-75">
+                          <input type="email" placeholder="email@email.com">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-25">
+                          <label> Assunto </label>
+                      </div>
+                      <div class="col-75">
+                          <select>
+                              <option value="1">Dúvidas</option>
+                              <option value="2">Reclamações</option>
+                              <option value="3">Sugestões</option>
+                              <option value="4">Outros</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-25">
+                          <label> Menssagem</label>
+                      </div>
+                      <div class="col-75">
+                          <textarea name="messagem"  rows="10" cols="30"></textarea> 
+                      </div>
+                  </div>
+                  <div class="row">
+                      <input type="submit" value="Enviar">
+                  </div> 
+              </form>
+          </div>
+      </section>
   </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="lname">Sobrenome</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="lname" name="lastname" placeholder="Seu Sobrenome..">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="country">País    </label>
-    </div>
-    <div class="col-75">
-      <select id="country" name="country">
-        <option value="australia">Argentina</option>
-        <option value="canada">Brasil</option>
-        <option value="usa">USA</option>
-      </select>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="subject">Sujeito</label>
-    </div>
-    <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="escreva algo.." style="height:200px"></textarea>
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
-  </form>
-</div>
-</div>
 
 </body>
 </html>
-
-
