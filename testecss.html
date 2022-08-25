@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Teste CSS interno e Inline </title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        h1{
+            text-align: center;
+            font-weight: bold;
+        }
+        p{
+            color: blueviolet;
+        }
+
+        
+
+        .container{
+            position:relative;
+            background-image: url(https://free4kwallpapers.com/uploads/originals/2020/06/02/marvel-infinity-war-wallpaper.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: 	#FFD700;
+
+        }
+
+            .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: 	#FFD700;
+
+        }
+
+        .abaixoesquerda{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: #FFD700
+;
+        }
+        .abaixodireita{
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: #FFD700
+;
+        }
+        .centro{
+            position: absolute;
+            top: 50%;
+            font-size: 18px;
+            width: 20%;
+            background-color: #FFD700
+;
+            margin-left: 40%;
+
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1 style="background-color:brown;color: cyan;"> Teste CSS interno e Inline </h1>
+        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
+        <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, corporis molestias itaque, ut perferendis tempora voluptate quibusdam beatae ea voluptas omnis rem commodi laboriosam odit nostrum architecto, quaerat consectetur corrupti!</p>
+    </header>
+    <div class="main">
+        <h1>Testando....</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsquerdo</div>
+            <div class="topodireita">TopoDireito</div>
+            <div class="abaixoesquerda">AbaixoEsquerdo</div>
+            <div class="abaixodireita">AbaixoDireito</div>
+            <div class="centro">Centro ksak</div>
+        </div>
+
+    </div>
+</body>
+</html>
