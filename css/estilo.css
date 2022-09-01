@@ -98,3 +98,15 @@ a{
 color: white;
 
 }
+.img_logo{
+    width: 50%;
+    padding-left: 25%;
+
+
+}
+
+.fixo{
+    position: fixed;
+    padding-left: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
