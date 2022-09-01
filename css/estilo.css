@@ -10,9 +10,9 @@ html {
     scroll-behavior: smooth;
 }
 .container{
-
 width: 80%;
 margin: auto;
+position: relative;
 }
 
 h1{
@@ -53,7 +53,19 @@ h5{
     color: white;
     font-weight: bold;
     font-size: 1.5em;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
+h6{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 p{
     text-align: center;
     font-size: 1.3em;
@@ -107,6 +119,97 @@ color: white;
 
 .fixo{
     position: fixed;
-    padding-left: 15%;
+    padding-left: 10%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.itens_menu{
+    text-align: center;
+}
+
+.itens_menu li{
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px dashed #ac7414;
+    padding: 1.5%;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+td:first-child { 
+    width: 40%;  
+}
+td:first-child + td {  
+    width: 60%; 
+}
+
+th{
+
+    font-size: 1.5em;
+    font-weight: bolder;
+    color;  
+
+}
+
+audio{
+    width: 80%;
+}
+
+audio::-webkit-media-controls-panel{ 
+    background-color:#ac7414 !important; 
+}
+
+input[type=text], select, input[type=email], input[type=submit], input[type=tel], input[type=message] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+  }
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+ }
+
+.form{
+    border-radius: 15px;
+    background-color: #F8F8FF;
+    padding: 10px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+form{
+    box-sizing: border-box;
 }
