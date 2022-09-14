@@ -173,17 +173,32 @@ audio::-webkit-media-controls-panel{
     background-color:#9400D3 !important; 
 }
 
-input[type=text], input[type=email], input[type=tel], input[type=date], textarea, select{
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #000;
-    border-radius: 10px;
+form {
     box-sizing: border-box;
-    font-family: 'Baloo 2', cursive;
+  }
+
+.form{
+    background-color: rgba(66, 64, 64, 0.5) ;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-input[type=submit] {
+input[type=text], input[type=email], input[type=tel], input[type=date], textarea, select {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;   
+    margin: 8px;
+}
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;   
+    color: #9400D3;
+  }
+
+  input[type=submit] {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -191,6 +206,7 @@ input[type=submit] {
     background-color: #7FFF00;
     color: #000;
     float: right;
+    margin: 2%;
 }
 
 input[type=submit]:hover {
@@ -198,43 +214,24 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-    color: #9400D3;
-}
 
-.form {
-    border-radius: 15px;
-    background-color: #F8F8FF;
-    padding: 3%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.col-25 {
+  .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
-}
+  }
   
-.col-75 {
+  .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
-}
+  }
 
-.row:after {
+  .row:after {
     content: "";
     display: table;
     clear: both;
-}
-
-form{
-    box-sizing: border-box;
-}
+  }
 
 @media screen and (max-width: 600px) {
 
@@ -269,6 +266,15 @@ form{
         margin-top: 50%;
     }
 
+    iframe {
+        width: 100%;
+    }
+    /*Com o iframe 100%, ajustei até ficar responsivo*/
+    .video {
+        width: 100%;
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 601px) {
@@ -293,8 +299,6 @@ form{
     .itens_menu a:visited, .itens_menu a:link{
         color: #FFFF;
         text-decoration: none;
-        font-weight: bolder;
-        text-shadow: 2px 2px black;
     }
 
     .itens_menu a:hover{
@@ -314,6 +318,7 @@ form{
     
     .img_topo{
         width: 100%;
+        height: auto;
     }
 
     .banner {
@@ -324,12 +329,24 @@ form{
         margin-top: 12%;
     }
 
+    iframe {
+        width: 60%;
+        min-height: 20em;
+    }
+    
+    .video{
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
     
     .container {
-        width: 100%;
+        width: 90%;
         margin: auto;
     }
 
@@ -348,6 +365,7 @@ form{
     
     .img_topo{
         width: 100%;
+
     }
 
     .banner {
@@ -358,6 +376,71 @@ form{
 
     .descer {
         margin-top: 50%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 9em;
+    }
+    
+    .video{
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .col-25, .col-75, input[typw=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .logo {
+        text-align: center;
+    }
+    
+    .img_logo {
+        width: 12%;
+    }
+    
+    .img_topo{
+        width: 100%;
+
+    }
+
+    .banner {
+        margin-top: 60%;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .descer {
+        margin-top: 60%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 9em;
+    }
+    
+    .video{
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .icone {
+        width: ;
     }
 
 }
